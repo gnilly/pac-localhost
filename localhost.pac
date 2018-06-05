@@ -7,7 +7,8 @@ function FindProxyForURL(url, host) {
       ".slack-imgs.com",
       ".slack-edge.com",
       ".slack-msgs.com",
-      ".linkedin.com"
+      ".linkedin.com",
+      ".trueflip.io"
     ];
 
     for(var index = 0;index<site_list.length;index++){
