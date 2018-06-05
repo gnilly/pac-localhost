@@ -1,7 +1,7 @@
 function FindProxyForURL(url, host) {
     host = host.toLowerCase();
 
-    var proxy = "SOCKS5 127.0.0.1:9050"
+    var proxy = "SOCKS5 127.0.0.1:9050; DIRECT"
     var site_list = [
       ".slack.com",
       ".slack-imgs.com",
