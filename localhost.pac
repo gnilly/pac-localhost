@@ -6,7 +6,7 @@ function FindProxyForURL(url, host) {
     var site_list = [
       ".linkedin.com",
       ".trueflip.io",
-      ".t.me"
+      "t.me"
     ];
 
     for(var index = 0;index<site_list.length;index++){
