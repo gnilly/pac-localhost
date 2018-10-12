@@ -11,7 +11,7 @@ function FindProxyForURL(url, host) {
     ];
 
     for(var index = 0;index<site_list.length;index++){
-         if(dnsDomainIs(host,site_list[index])) {
+         if(dnsDomainIs(host,site_list[index]) || host == site_list[index].substring(1)) {
             return proxy;
          }
     }
